@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,sum=0,avg;
+	cout<<"Enter First Number :: ";
+	cin>>a;
+	cout<<"Enter The Second Number :: ";
+	cin>>b;
+	sum=a+b;
+	avg=sum/2;
+	cout<<"Sum of Both Numbers Is :: ";
+	cout<<sum;
+	cout<<"\nAverage Of Both Number Is :: ";
+	cout<<avg;
+	return 0;
+}
